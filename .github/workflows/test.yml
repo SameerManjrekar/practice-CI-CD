@@ -9,6 +9,6 @@ jobs:
         with:
           node-version: 14
       - name: Build the project
-        run: npm run build
+        run: npm build
       - name: Setup Finish
         run: echo "Yaay! Janely!!"
